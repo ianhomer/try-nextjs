@@ -1,7 +1,6 @@
-name: Update
+name: update
 
 on:
-  push:
   schedule: 
     - cron: 0 0 * * 1
 
