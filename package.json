@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
+    "format:pkg": "format-package -w",
+    "prettier": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write .",
     "start": "next start",
     "update": "npx npm-check-updates -u"
   },
@@ -12,5 +15,8 @@
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
