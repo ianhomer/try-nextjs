@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -12,9 +12,7 @@ export default function Home() {
         <p>Try Next.js</p>
       </main>
 
-      <footer>
-        Try
-      </footer>
+      <footer>Try</footer>
 
       <style jsx>{`
         .container {
@@ -162,5 +160,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
