@@ -2,11 +2,12 @@
 
 ## tl;dr
 
+    yarn
     yarn dev
 
 ## Project Bootstrap
 
-Project was created with
+Created project with
 
     npm init next-app try-nextjs \
       --example                  \

@@ -9,8 +9,8 @@
     "update": "npx npm-check-updates -u"
   },
   "dependencies": {
-    "next": "9.5.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "next": "10.2.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }
