@@ -12,11 +12,11 @@
     "update": "npx npm-check-updates -u"
   },
   "dependencies": {
-    "next": "12.1.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.6.1"
+    "prettier": "^2.6.2"
   }
 }
