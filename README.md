@@ -1,6 +1,6 @@
 # Try Next.js
 
-## tl;dr
+## Getting started
 
     yarn
     yarn dev
