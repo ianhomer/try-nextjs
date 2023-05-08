@@ -12,12 +12,12 @@
     "update": "npx npm-check-updates -u"
   },
   "dependencies": {
-    "next": "^13.3.2",
+    "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
