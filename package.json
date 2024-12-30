@@ -12,7 +12,7 @@
     "update": "npx npm-check-updates -u"
   },
   "dependencies": {
-    "next": "^14.2.21",
+    "next": "^14.2.22",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -22,7 +22,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-n": "^17.15.1",
     "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react": "^7.37.3",
     "prettier": "^3.4.2"
   }
 }
