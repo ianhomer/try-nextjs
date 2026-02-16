@@ -23,13 +23,13 @@ importers:
         version: 9.39.2
       eslint-config-standard:
         specifier: ^17.1.0
-        version: 17.1.0(eslint-plugin-import@2.32.0(eslint@9.39.2))(eslint-plugin-n@17.23.2(eslint@9.39.2)(typescript@5.8.3))(eslint-plugin-promise@7.2.1(eslint@9.39.2))(eslint@9.39.2)
+        version: 17.1.0(eslint-plugin-import@2.32.0(eslint@9.39.2))(eslint-plugin-n@17.24.0(eslint@9.39.2)(typescript@5.8.3))(eslint-plugin-promise@7.2.1(eslint@9.39.2))(eslint@9.39.2)
       eslint-plugin-import:
         specifier: ^2.32.0
         version: 2.32.0(eslint@9.39.2)
       eslint-plugin-n:
-        specifier: ^17.23.2
-        version: 17.23.2(eslint@9.39.2)(typescript@5.8.3)
+        specifier: ^17.24.0
+        version: 17.24.0(eslint@9.39.2)(typescript@5.8.3)
       eslint-plugin-promise:
         specifier: ^7.2.1
         version: 7.2.1(eslint@9.39.2)
@@ -257,8 +257,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001769:
-    resolution: {integrity: sha512-BCfFL1sHijQlBGWBMuJyhZUhzo7wer5sVj9hqekB/7xn0Ypy+pER/edCYQm4exbXj4WiySGp40P8UuTh6w1srg==}
+  caniuse-lite@1.0.30001770:
+    resolution: {integrity: sha512-x/2CLQ1jHENRbHg5PSId2sXq1CIO1CISvwWAj027ltMVG2UNgW+w9oH2+HzgEIRFembL8bUlXtfbBHR1fCg2xw==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -424,8 +424,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-n@17.23.2:
-    resolution: {integrity: sha512-RhWBeb7YVPmNa2eggvJooiuehdL76/bbfj/OJewyoGT80qn5PXdz8zMOTO6YHOsI7byPt7+Ighh/i/4a5/v7hw==}
+  eslint-plugin-n@17.24.0:
+    resolution: {integrity: sha512-/gC7/KAYmfNnPNOb3eu8vw+TdVnV0zhdQwexsw6FLXbhzroVj20vRn2qL8lDWDGnAQ2J8DhdfvXxX9EoxvERvw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -1348,7 +1348,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001769: {}
+  caniuse-lite@1.0.30001770: {}
 
   chalk@4.1.2:
     dependencies:
@@ -1534,11 +1534,11 @@ snapshots:
       eslint: 9.39.2
       semver: 7.7.4
 
-  eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@9.39.2))(eslint-plugin-n@17.23.2(eslint@9.39.2)(typescript@5.8.3))(eslint-plugin-promise@7.2.1(eslint@9.39.2))(eslint@9.39.2):
+  eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@9.39.2))(eslint-plugin-n@17.24.0(eslint@9.39.2)(typescript@5.8.3))(eslint-plugin-promise@7.2.1(eslint@9.39.2))(eslint@9.39.2):
     dependencies:
       eslint: 9.39.2
       eslint-plugin-import: 2.32.0(eslint@9.39.2)
-      eslint-plugin-n: 17.23.2(eslint@9.39.2)(typescript@5.8.3)
+      eslint-plugin-n: 17.24.0(eslint@9.39.2)(typescript@5.8.3)
       eslint-plugin-promise: 7.2.1(eslint@9.39.2)
 
   eslint-import-resolver-node@0.3.9:
@@ -1592,7 +1592,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-n@17.23.2(eslint@9.39.2)(typescript@5.8.3):
+  eslint-plugin-n@17.24.0(eslint@9.39.2)(typescript@5.8.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.2)
       enhanced-resolve: 5.19.0
@@ -2005,7 +2005,7 @@ snapshots:
       '@next/env': 14.2.35
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001769
+      caniuse-lite: 1.0.30001770
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
